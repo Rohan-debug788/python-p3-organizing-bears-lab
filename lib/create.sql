@@ -2,7 +2,7 @@ CREATE TABLE bears (
   id INTERGER,
   name TEXT,
   age INTERGER,
-  sex TEXT,
+  sex CHAR(1),
   color TEXT,
   temperament TEXT,
   alive BOOLEAN
